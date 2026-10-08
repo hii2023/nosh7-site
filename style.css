@@ -41,7 +41,7 @@ section{padding:40px 0}section.alt{background:#fff;border-top:1px solid var(--li
 .steps li::before{content:counter(s);display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--lime);font-weight:800;margin-bottom:8px}
 table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:15.5px}
 th,td{padding:11px 12px;border-bottom:1px solid var(--line);text-align:left}th{background:#f1f7e2}
-.tw{overflow-x:auto}
+.tw{overflow-x:auto}.plink{color:var(--green-d);text-decoration:underline;text-underline-offset:3px}.plink:hover{color:var(--ink)}td .btn{white-space:nowrap}
 details.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:4px 16px;margin:10px 0}
 details.faq summary{cursor:pointer;font-weight:700;padding:12px 0}details.faq p{margin:0 0 14px;color:#2b3a24}
 .crumbs{font-size:14px;color:var(--muted);padding:16px 0 0}.crumbs a{color:var(--muted)}
