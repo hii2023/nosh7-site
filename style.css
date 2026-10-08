@@ -54,4 +54,6 @@ footer .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr
 footer ul{list-style:none;padding:0;margin:0}footer li{margin:5px 0}
 .fine{border-top:1px solid #2a3822;margin-top:24px;padding-top:16px;font-size:13.5px}
 @media(max-width:760px){.hero .grid{grid-template-columns:1fr}.heroimg{order:-1;aspect-ratio:16/10}.bar{flex-wrap:wrap}nav.main{order:3;width:100%;margin-left:0}.bar .actions{margin-left:auto}}
+.wafloat{position:fixed;right:16px;bottom:18px;z-index:30;display:flex;align-items:center;gap:8px;background:#25d366;color:#fff;padding:13px 18px;border-radius:999px;font-weight:700;text-decoration:none;box-shadow:0 8px 22px rgba(0,0,0,.28)}.wafloat:hover{filter:brightness(.95)}
+@media(max-width:560px){.wafloat span{display:none}.wafloat{padding:14px}}
 .actions{display:flex;gap:8px;margin-left:8px}
