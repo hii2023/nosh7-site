@@ -94,3 +94,7 @@ figure.side img{border-radius:14px}figure.side figcaption{font-size:13.5px;color
 .postcard h2{margin:4px 0 6px}.postcard .byline{margin:0}
 @media(max-width:760px){.post .tests{grid-template-columns:1fr 1fr}.seasons{grid-template-columns:1fr}figure.side{float:none;width:auto;max-width:320px;margin:18px auto}.postcard{grid-template-columns:1fr;gap:12px}.postcard img{aspect-ratio:16/9}}
 footer .play{display:inline-flex;align-items:center;gap:9px;background:#000;color:#fff;text-decoration:none;border:1px solid #a6a6a6;border-radius:8px;padding:6px 14px 6px 10px;margin-top:4px;line-height:1.1}footer .play span{display:flex;flex-direction:column;font-size:17px;font-weight:600}footer .play small{font-size:9px;letter-spacing:.04em;text-transform:uppercase;opacity:.85;font-weight:400}
+.pcard .price{font-size:30px;font-weight:800;letter-spacing:-.02em;margin:2px 0}.pcard .eyebrow{margin:0 0 4px}.pcard ul{margin:10px 0 14px}.pcard.best{border:2px solid var(--green)}
+ul.feats{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;padding:0;list-style:none;margin:0 0 26px}
+ul.feats li{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px 12px 38px;font-weight:700;position:relative}
+ul.feats li::before{content:"";position:absolute;left:14px;top:50%;width:14px;height:14px;margin-top:-7px;border-radius:50%;background:var(--lime)}
